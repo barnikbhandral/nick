@@ -1,0 +1,98 @@
+.projectDesc {}
+
+.projectHeading {
+    color: #0F1420;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+}
+
+.projectBlock {
+    width: 1112px;
+    height: 414px;
+    flex-shrink: 0;
+    border-radius: 10px;
+    background: #FFF;
+    
+}
+
+.task {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.ProjectWrapper {
+    height: 100%;
+    padding: 26px 38px 0px 26px;
+}
+
+.taskHeading {
+    width: 570px;
+    height: 22px;
+    color: #0F1420;
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+}
+
+.taskButtons {
+    display: flex;
+    align-items: end;
+    gap: 16px;
+}
+
+.taskButtons > button {
+    width: 140px;
+    height: 36px;
+    flex-shrink: 0;
+    background: #FFF;
+    border-radius: 50px;
+    border: 1px solid #000;
+}
+.detailBlock{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100%;
+}
+.details {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-direction: column;
+    width: 60%;
+    height: 80%;
+}
+
+.details > div > label, .description > div > label {
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    padding-right: 20px;
+
+}
+
+.description {
+    width: 100%;
+    height: 85%;
+    margin-top: 44px;
+}
+
+.detailBlock >div >div>  input {
+    border: none;
+    padding: 5px;
+}
+
+.description > div > input{
+    height: 100px;
+    width: 85%;
+    border-radius: 10px; 
+    margin-top: 24px;   
+}

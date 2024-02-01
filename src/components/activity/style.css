@@ -1,0 +1,25 @@
+.activity {
+    width: 1112px;
+    border-radius: 10px;
+    background-color: #fff;
+    margin-top: 20px;
+}
+.activityWrapper {
+    padding: 30px;
+    
+}
+.activityHeading {
+    font-weight: 700;
+}
+
+.activityList {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.activity1 {
+    min-width: 300px
+}
+.taskName > span{
+    align-text: start;
+}
